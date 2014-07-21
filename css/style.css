@@ -1,0 +1,40 @@
+/*
+#c60c46; purple
+#ed5d22 !orange
+#FBAD20 !yellow
+#83BF21 !green
+#4AA942 !dk gr
+*/
+.well {
+  background: none;
+  border-width: 2px;
+  margin-top: 65px;
+}
+.well figure img { 
+  margin-top:-50px;
+  border-radius: 0;
+  -webkit-transition: all 0.45s ease-in-out;
+}
+.well h4 { 
+  color: #c60c46;
+}
+img {
+   
+  border: none;
+}
+.well:hover img {
+  margin-top:-65px;
+  margin-bottom: 15px;
+  border-radius: 240px;
+  -webkit-transition: all 0.125s ease-out;
+}
+.well .lead {
+  font-size: 1em;
+}
+/* podcast */
+.cinemersia {
+  background: url(../imgs/jpeg.jpg) 50% 50%;
+  background-size: cover;
+  min-height: 250px;
+  color: #fff;
+}
