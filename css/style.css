@@ -22,12 +22,7 @@ img {
    
   border: none;
 }
-.well:hover img {
-  margin-top:-65px;
-  margin-bottom: 15px;
-  border-radius: 240px;
-  -webkit-transition: all 0.125s ease-out;
-}
+
 .well .lead {
   font-size: 1em;
 }
