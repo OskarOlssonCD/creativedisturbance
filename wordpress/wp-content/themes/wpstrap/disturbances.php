@@ -18,7 +18,12 @@ $my_query = null;
 $my_query = new WP_Query($args);
   while ($my_query->have_posts()) : $my_query->the_post(); ?>
 <?php if($var%3==0)
-echo "<div class=\"row\">";
+{	if($var!=0)
+	{
+		echo "</div>";
+	}
+	echo "<div class=\"row\">";
+}
 ?>
 <div class="col-xs-6 col-md-4">
 	<div class="well text-center">
@@ -43,9 +48,6 @@ echo "<div class=\"row\">";
 </div>
 <?php $var = $var + 1 ; ?>
 <?php endwhile; wp_reset_query(); ?>
-<?php if($var%3==0)
-echo "</div>";
-?>
 
 <script src="/wordpress/wp-content/themes/wpstrap/js/disturbances.js"></script>
 <?php get_footer(); ?>
