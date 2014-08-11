@@ -35,10 +35,15 @@ p, li {
 	padding-top: 30px;
 }
 
-.box {
-	max-height: 250px;
+.well .box {
+	height: 110px;
 	position: relative;
 	overflow: hidden;
+}
+
+.box {
+	max-height: 110px;
+
 }
 .box .read-more { 
 	position: absolute; 

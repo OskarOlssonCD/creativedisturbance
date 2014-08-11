@@ -65,7 +65,7 @@ Template Name: Feedback
 		<div class="form-group"><label class="control-label" for="message_text">Comment</label><textarea type="text" name="message_text" class="form-control"><?php echo esc_textarea($_POST['message_text']); ?></textarea></div>
 		<!-- <div class="form-group"><label class="control-label" for="message_human">Human Verification</label><input class="form-control" type="text" style="width: 60px;" name="message_human"> + 3 = 5</div>
 		<input type="hidden" name="submitted" value="1"> -->
+		<h4><a href="https://github.com/cassininazir/creativedisturbance/issues">Issue list</a></h4>
 		<div class="form-group"><input type="submit"></div>
 	</form>
-
 <?php get_footer(); ?>

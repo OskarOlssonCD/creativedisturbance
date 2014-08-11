@@ -14,3 +14,5 @@
 [01-Aug-2014 02:58:23] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/footer.php on line 5
 [01-Aug-2014 02:59:11] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/footer.php on line 5
 [01-Aug-2014 02:59:14] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/footer.php on line 5
+[05-Aug-2014 21:02:45] PHP Parse error:  syntax error, unexpected T_ELSE in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/feedback.php on line 58
+[05-Aug-2014 21:02:47] PHP Parse error:  syntax error, unexpected T_ELSE in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/feedback.php on line 58

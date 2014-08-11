@@ -31,14 +31,14 @@ $my_query = new WP_Query($args);
 			<figure>
 				<img src="<?php print_custom_field('album_cover:to_image_src'); ?>" width="200" />
 			</figure>
+			<h4><?php print_custom_field('channel:do_shortcode'); ?></h4>
 		</a>
 		<div class="box">
-			<h4><?php print_custom_field('channel:do_shortcode'); ?></h4>
+			<!-- <h4><?php print_custom_field('channel:do_shortcode'); ?></h4> -->
 			<p class="lead"><?php print_custom_field('channeldesc'); ?></p>
 			<div class="languages">
 				<span class=""><?php print_custom_field('lang'); ?></span>
 			</div>
-
 			<div class="list">
 				<?php print_custom_field('list'); ?>
 			</div>

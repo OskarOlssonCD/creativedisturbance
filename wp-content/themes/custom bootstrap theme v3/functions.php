@@ -1,8 +1,5 @@
 <?php 
 
-add_filter('body_class', 'mbe_body_class');
-add_action('wp_head', 'mbe_wp_head');
-
 function wpbootstrap_scripts_with_jquery()
 {
 	// Register the script like this for a theme:
@@ -11,6 +8,8 @@ function wpbootstrap_scripts_with_jquery()
 	wp_enqueue_script( 'custom-script' );
 }
 add_action( 'wp_enqueue_scripts', 'wpbootstrap_scripts_with_jquery' );
+add_filter('body_class', 'mbe_body_class');
+add_action('wp_head', 'mbe_wp_head');
 
 if ( function_exists('register_sidebar') )
 	register_sidebar(array(
