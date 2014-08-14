@@ -29,7 +29,7 @@ Template Name: Feedback
   //user posted variables
   $name = $_POST['message_name'];
   $email = $_POST['message_email'];
-  $message = $_POST['message_text'];
+  $message = "From: " .  $name . "\n" . "URL: " . $_POST['url'] ."\n\n" . $_POST['message_text'];
   $message_self = "Your feedback has been recieved. We will try to look at the issue as soon as possible.";
   // $human = $_POST['message_human'];
 
