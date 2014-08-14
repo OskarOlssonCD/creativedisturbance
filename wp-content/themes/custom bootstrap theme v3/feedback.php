@@ -30,13 +30,15 @@ Template Name: Feedback
   $name = $_POST['message_name'];
   $email = $_POST['message_email'];
   $message = $_POST['message_text'];
+  $message_self = "Your feedback has been recieved. We will try to look at the issue as soon as possible.";
   // $human = $_POST['message_human'];
 
   //php mailer variables
   $to = 'feedback.createdisturb@gmail.com';
   $subject = "Issue: ".get_bloginfo('name');
-  $headers = 'From: '. $email . "\r\n" .
-    'Reply-To: ' . $email . "\r\n";
+  $subject_self = "Feedback recieved";
+  $headers = 'From: '. $email . "\r\n" .'Reply-To: ' . $email . "\r\n";
+  $headers_self = 'From: '. $to . "\r\n" .'Reply-To: ' . $to . "\r\n" ;
 
 	if(!filter_var($email, FILTER_VALIDATE_EMAIL))
 		my_contact_form_generate_response("error", $email_invalid);
@@ -50,6 +52,7 @@ Template Name: Feedback
 		else //ready to go!
 		{
 			$sent = wp_mail($to, $subject, strip_tags($message), $headers);
+			$sent2 = wp_mail($email, $subject_self, strip_tags($message_self), $headers_self);
 			if($sent) my_contact_form_generate_response("success", $message_sent); //message sent!
 			else my_contact_form_generate_response("error", $message_unsent); //message wasn't sent
 		}

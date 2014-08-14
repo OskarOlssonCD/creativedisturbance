@@ -30,9 +30,9 @@ $my_query = new WP_Query($args);
 	<div class="well text-center mainbox">
 		<a href="<?php the_permalink(); ?>">
 			<figure>
-				<img src="<?php print_custom_field('album_cover:to_image_src'); ?>" width="200" />
+				<img src="<?php print_custom_field('album_cover:to_image_src'); ?>" class="img-responsive disturbance-img" width="200px" />
 			</figure>
-		  	<div class="text-center"><h4><?php echo get_custom_field('channel:do_shortcode');?></h4></div>
+			<h4><?php echo get_custom_field('channel:do_shortcode');?></h4>
 		</a>
 		<div class="box">
 			<?php $channel = get_custom_field('channel'); ?>

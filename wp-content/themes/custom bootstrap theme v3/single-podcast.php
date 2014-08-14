@@ -74,19 +74,45 @@
 
 <div class="container">
 	<div class="row">
-		<div class="col-xs-12 col-md-offset-1 col-md-9">
-		<h2>Episode</h2>
-		<p class="lead">
-			<audio width="300" height="32" controls="controls">
-			<source src="<?php print_custom_field('AudioURL'); ?>" type="audio/mp3" />
-			<!--fallback-->
-				Your browser does not support the audio tag.
-			</audio>
-		  <a href="<?php print_custom_field('AudioURL'); ?>" download="<?php print_custom_field('episode'); ?>.mp3">Download</a>
-		</p> 
-		<p><strong>Detail</strong> <?php print_custom_field('detail'); ?><br /></p>
-		  
-		<h6><?php print_custom_field('topic'); ?></h6>
+		<div class="col-xs-12 col-md-offset-1 col-md-8">
+			<h2>Episode</h2>
+			<p class="lead">
+				<audio width="300" height="32" controls="controls">
+				<source src="<?php print_custom_field('AudioURL'); ?>" type="audio/mp3" />
+				<!--fallback-->
+					Your browser does not support the audio tag.
+				</audio>
+				<a href="<?php print_custom_field('AudioURL'); ?>" download="<?php print_custom_field('episode'); ?>.mp3">Download</a>
+			</p> 
+			<p><strong>Detail</strong> <?php print_custom_field('detail'); ?><br /></p>
+			
+			<h6><?php print_custom_field('topic'); ?></h6>
+		</div>
+		<div class="col-md-2 text-right">
+			<h4>Voices</h4>
+			<?php
+				$i = 0 ;
+				$people = new WP_Query( array(
+				'post_type' => 'people',
+				'post_status' => 'publish',
+				'posts_per_page' => -1,
+				) );
+				if ( $people->have_posts() )
+				{
+					while ( $people->have_posts() ) : $people->the_post();
+					{
+						foreach ($voices as $item)
+						{
+							if(get_the_title()==$item)
+							{
+								echo "<img src=\"" . get_custom_field('photo:to_image_src'). "\" class='img-responsive'/>";
+							}	
+						}
+					}
+					endwhile;
+					wp_reset_query();
+				}
+			?>
 		</div>
 	</div>
 </div>
