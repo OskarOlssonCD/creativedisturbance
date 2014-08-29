@@ -42,13 +42,25 @@
 				<div class="navbar-brand">Creative Disturbance</div>
 			  </div>
 			  <div class="collapse navbar-collapse">
-				<ul class="nav navbar-nav">
-				  <?php wp_list_pages(array('title_li' => '', 'exclude' => 4));
-				  ?>
-				</ul>
+				<div class="row">
+					<ul class="nav navbar-nav">
+						<?php wp_list_pages(array('title_li' => '', 'exclude' => 4));
+						?>
+					</ul>
+				</div>
+				<div class="row">
+					<div class="text-center">
+						<audio width="300" controls="controls" id="player">
+							<source src="http://traffic.libsyn.com/createdisturb/Roger-Root-Bernstein.mp3" type="audio/mp3" id="audio_src" />
+							<!--fallback-->
+							Your browser does not support the audio tag.
+						</audio>
+					</div>
+				</div>
 			  </div><!--/.nav-collapse -->
 			</div>
 		  </div>
 		</nav>
 		
+		<div id="content">
 		<div class="container">

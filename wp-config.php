@@ -19,8 +19,8 @@
 define('WP_CACHE', true); //Added by WP-Cache Manager
 define( 'WPCACHEHOME', '/home4/atec/public_html/cd/wp-content/plugins/wp-super-cache/' ); //Added by WP-Cache Manager
 
-define('WP_HOME','http://texashats.org/cd');
-define('WP_SITEURL','http://texashats.org/cd');
+define('WP_HOME','http://creativedisturbance.texashats.org/');
+define('WP_SITEURL','http://creativedisturbance.texashats.org/');
 
 
 define('MMAFF', 'hostgator' ); //Added by QuickInstall

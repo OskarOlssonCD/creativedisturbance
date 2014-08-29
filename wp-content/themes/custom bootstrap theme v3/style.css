@@ -22,7 +22,7 @@ Author URI: https://github.com/anvit
 
 body
 {
-	padding-top: 80px;
+	padding-top: 100px !important; 
 	padding-bottom: 50px;
 }
 
@@ -35,10 +35,15 @@ p, li {
 	padding-top: 30px;
 }
 
-.box {
-	max-height: 250px;
+.well .box {
+	height: 110px;
 	position: relative;
 	overflow: hidden;
+}
+
+.box {
+	max-height: 110px;
+
 }
 .box .read-more { 
 	position: absolute; 
@@ -57,6 +62,26 @@ p, li {
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6- */
 }
 
+.people-panel
+{
+	height: 350px;
+	background: #0e0407;
+}
+
+.people-panel-title{
+	color: #ffffff;
+	font-size: 1.5em;
+}
+
+.people-panel-lead {
+	color: #cccccc;
+	font-family: "Mercury";
+	font-style: italic;
+}
+
+.disturbance-img{
+    margin: 0 auto;
+}
 .well {
   background: none;
   border-width: 2px;

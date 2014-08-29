@@ -5,6 +5,7 @@ Template Name: Channel
 ?>
 
 <?php get_header(); ?>
+<div class="text-center"><h1>Disturbances</h1></div>
 <?php
 $type = 'channel';
 $var = 0 ;
@@ -26,14 +27,14 @@ $my_query = new WP_Query($args);
 }
 ?>
 <div class="col-xs-6 col-md-4">
-	<div class="well text-center">
+	<div class="well text-center mainbox">
 		<a href="<?php the_permalink(); ?>">
 			<figure>
-				<img src="<?php print_custom_field('album_cover:to_image_src'); ?>" width="200" />
+				<img src="<?php print_custom_field('album_cover:to_image_src'); ?>" class="img-responsive disturbance-img" width="200px" />
 			</figure>
+			<h4><?php echo get_custom_field('channel:do_shortcode');?></h4>
 		</a>
 		<div class="box">
-			<h4><?php print_custom_field('channel:do_shortcode');?></h4>
 			<?php $channel = get_custom_field('channel'); ?>
 			<p class="lead"><?php print_custom_field('Tagline'); ?></p>
 			<div class="list"><ol>
@@ -61,5 +62,5 @@ $my_query = new WP_Query($args);
 <?php $var = $var + 1 ; ?>
 <?php endwhile; wp_reset_query(); ?>
 
-<script src="/cd/wp-content/themes/wpstrap/js/disturbances.js"></script>
+<script src="/cd/wp-content/themes/custom bootstrap theme v3/js/disturbances.js"></script>
 <?php get_footer(); ?>
