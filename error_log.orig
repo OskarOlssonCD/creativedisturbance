@@ -1,0 +1,48 @@
+[28-Jul-2014 16:30:28] PHP Parse error:  syntax error, unexpected T_ENDWHILE in /home4/atec/public_html/cd/wp-content/themes/wpstrap/front-page.php on line 14
+[28-Jul-2014 16:30:30] PHP Parse error:  syntax error, unexpected T_ENDWHILE in /home4/atec/public_html/cd/wp-content/themes/wpstrap/front-page.php on line 14
+[30-Jul-2014 20:47:29] PHP Parse error:  syntax error, unexpected ';' in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v2/single-podcast.php on line 24
+[30-Jul-2014 20:50:31] PHP Parse error:  syntax error, unexpected T_STRING, expecting ')' in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v2/single-podcast.php on line 24
+[30-Jul-2014 21:04:09] PHP Parse error:  syntax error, unexpected ';', expecting ')' in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v2/single-podcast.php on line 26
+[30-Jul-2014 21:07:27] PHP Parse error:  syntax error, unexpected T_STRING in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v2/single-podcast.php on line 32
+[30-Jul-2014 21:07:52] PHP Parse error:  syntax error, unexpected T_STRING in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v2/single-podcast.php on line 32
+[30-Jul-2014 21:07:53] PHP Parse error:  syntax error, unexpected T_STRING in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v2/single-podcast.php on line 32
+[30-Jul-2014 21:17:33] PHP Parse error:  syntax error, unexpected '.' in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v2/channels.php on line 48
+[30-Jul-2014 21:27:52] PHP Fatal error:  Call to undefined function  alert() in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v2/channels.php on line 47
+[30-Jul-2014 22:14:15] PHP Fatal error:  Call to undefined function  get__custom_field() in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v2/single-podcast.php on line 22
+[30-Jul-2014 22:14:33] PHP Fatal error:  Call to a member function reset_postdata() on a non-object in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v2/single-podcast.php on line 26
+[31-Jul-2014 03:34:52] PHP Parse error:  syntax error, unexpected T_IF, expecting ',' or ';' in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/single-channel.php on line 32
+[01-Aug-2014 02:58:23] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/footer.php on line 5
+[01-Aug-2014 02:59:11] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/footer.php on line 5
+[01-Aug-2014 02:59:14] PHP Parse error:  syntax error, unexpected T_DOUBLE_ARROW in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/footer.php on line 5
+[05-Aug-2014 21:02:45] PHP Parse error:  syntax error, unexpected T_ELSE in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/feedback.php on line 58
+[05-Aug-2014 21:02:47] PHP Parse error:  syntax error, unexpected T_ELSE in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/feedback.php on line 58
+<<<<<<< HEAD
+[11-Aug-2014 19:35:23] PHP Warning:  Invalid argument supplied for foreach() in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/front-page.php on line 90
+[11-Aug-2014 19:35:23] PHP Warning:  Invalid argument supplied for foreach() in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/front-page.php on line 90
+[11-Aug-2014 19:35:23] PHP Warning:  Invalid argument supplied for foreach() in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/front-page.php on line 90
+[11-Aug-2014 19:35:23] PHP Warning:  Invalid argument supplied for foreach() in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/front-page.php on line 90
+[11-Aug-2014 19:35:23] PHP Warning:  Invalid argument supplied for foreach() in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/front-page.php on line 90
+[11-Aug-2014 19:37:26] PHP Warning:  Variable passed to each() is not an array or object in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/front-page.php on line 90
+[11-Aug-2014 19:37:27] PHP Warning:  Variable passed to each() is not an array or object in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/front-page.php on line 90
+[11-Aug-2014 19:37:27] PHP Warning:  Variable passed to each() is not an array or object in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/front-page.php on line 90
+[11-Aug-2014 19:37:27] PHP Warning:  Variable passed to each() is not an array or object in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/front-page.php on line 90
+[11-Aug-2014 19:37:27] PHP Warning:  Variable passed to each() is not an array or object in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/front-page.php on line 90
+[11-Aug-2014 19:43:05] PHP Fatal error:  Call to undefined function  to_array() in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/front-page.php on line 89
+[11-Aug-2014 19:45:18] PHP Warning:  Invalid argument supplied for foreach() in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/front-page.php on line 90
+[11-Aug-2014 19:45:18] PHP Warning:  Invalid argument supplied for foreach() in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/front-page.php on line 90
+[11-Aug-2014 19:45:18] PHP Warning:  Invalid argument supplied for foreach() in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/front-page.php on line 90
+[11-Aug-2014 19:45:18] PHP Warning:  Invalid argument supplied for foreach() in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/front-page.php on line 90
+[11-Aug-2014 19:45:18] PHP Warning:  Invalid argument supplied for foreach() in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/front-page.php on line 90
+[11-Aug-2014 19:47:53] PHP Parse error:  syntax error, unexpected T_FOREACH in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/front-page.php on line 91
+[11-Aug-2014 19:47:55] PHP Parse error:  syntax error, unexpected T_FOREACH in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/front-page.php on line 91
+[11-Aug-2014 20:12:18] PHP Fatal error:  Call to a member function reset_postdata() on a non-object in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/single-podcast.php on line 35
+[11-Aug-2014 20:12:20] PHP Fatal error:  Call to a member function reset_postdata() on a non-object in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/single-podcast.php on line 35
+[12-Aug-2014 20:13:47] PHP Parse error:  syntax error, unexpected T_BREAK, expecting ',' or ';' in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/single-podcast.php on line 109
+[12-Aug-2014 20:29:38] PHP Fatal error:  Call to undefined function  get_title() in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/single-podcast.php on line 105
+[12-Aug-2014 20:29:40] PHP Fatal error:  Call to undefined function  get_title() in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/single-podcast.php on line 105
+[12-Aug-2014 20:36:09] PHP Fatal error:  Function name must be a string in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/single-podcast.php on line 106
+[12-Aug-2014 20:36:11] PHP Fatal error:  Function name must be a string in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/single-podcast.php on line 106
+[12-Aug-2014 20:36:22] PHP Fatal error:  Function name must be a string in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/single-podcast.php on line 106
+[12-Aug-2014 20:36:23] PHP Fatal error:  Function name must be a string in /home4/atec/public_html/cd/wp-content/themes/custom bootstrap theme v3/single-podcast.php on line 106
+=======
+>>>>>>> fcaff1d583457426b3e5fc1f20c378fd7a45acc1
